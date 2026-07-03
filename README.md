@@ -4,7 +4,7 @@ Environmental engineer (10 years in wind energy & licensing, Brazil/France) turn
 
 🌬️ Energy & simulation — my home turf
 
-WindSound — SaaS platform for wind-farm acoustic compliance modelling. ISO 9613-2, IEC 61400-11-2 and ABNT NBR 10151 implemented as testable code; Monte Carlo uncertainty analysis (P50–P99) running in-browser via Web Workers; automated regulatory PDF reports. Demonstrated to major wind developers in Brazil.
+[WindSound] (https://www.windsound.app/) — SaaS platform for wind-farm acoustic compliance modelling. ISO 9613-2, IEC 61400-11-2 and ABNT NBR 10151 implemented as testable code; Monte Carlo uncertainty analysis (P50–P99) running in-browser via Web Workers; automated regulatory PDF reports. Demonstrated to major wind developers in Brazil.
 SEAFAIRER value-chain optimizer — MILP optimisation of maritime biofuel supply chains (PuLP/CBC), Monte Carlo P10/P50/P90, ISO 14040 life-cycle GHG accounting, FuelEU compliance checks. React dashboard.
 Brazil Labor Transition Simulator — probabilistic policy simulator (up to 50k Monte Carlo runs) for Brazil's 6×1 workweek reform, calibrated live against IBGE/PNAD and CAGED APIs. Streamlit.
 
