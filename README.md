@@ -1,23 +1,37 @@
-Hello, I'm Thiago. Environmental Engineer and Data Analyst with expertise in data analysis and reporting, query optimization, database design, and data modelling.
+I build software where regulation meets data — turning environmental standards, financial rules and policy targets into testable, working systems.
 
-- Querying data using SQL.
-- Generate reports and perform ad-hoc data analysis using SQL.
-- Developing dashboards on Power BI, Tableau and Looker Studio.
-- Data analysis and reporting using Google Sheets and Excel.
-  
-📚 Projects
-- Welcome to my portfolio, where I showcase my [projects].
+Environmental engineer (10 years in wind energy & licensing, Brazil/France) turned founder-engineer. Based near Copenhagen 🇩🇰 · FR/PT native, EN professional.
 
-🛠️ Tools
-- Language: SQL, Python
-- Database: Google BigQuery, PostgreSQL, MySQL
-- Visualization: Power BI, Tableau, Looker Studio
-  
-👋🏻 Connect with Me
-- [Linkedin](https://www.linkedin.com/in/thiago-queiros-lefebure-818a14b2/)
-- Hire me on [Malt](https://www.malt.fr/profile/thiagolefebure)
+🌬️ Energy & simulation — my home turf
 
-<!---
-thiagolefebure/thiagolefebure is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+WindSound — SaaS platform for wind-farm acoustic compliance modelling. ISO 9613-2, IEC 61400-11-2 and ABNT NBR 10151 implemented as testable code; Monte Carlo uncertainty analysis (P50–P99) running in-browser via Web Workers; automated regulatory PDF reports. Demonstrated to major wind developers in Brazil.
+SEAFAIRER value-chain optimizer — MILP optimisation of maritime biofuel supply chains (PuLP/CBC), Monte Carlo P10/P50/P90, ISO 14040 life-cycle GHG accounting, FuelEU compliance checks. React dashboard.
+Brazil Labor Transition Simulator — probabilistic policy simulator (up to 50k Monte Carlo runs) for Brazil's 6×1 workweek reform, calibrated live against IBGE/PNAD and CAGED APIs. Streamlit.
+
+
+🤖 AI / LLM systems
+
+
+AI Document Intelligence Engine — production-oriented FastAPI RAG service (LangChain/LangGraph, OpenAI, Dockerized). Beyond the chatbot demo: evidence-based answers with per-page citations, source deduplication, coverage scoring as an explainability signal, Markdown/PDF export endpoints.
+
+
+📊 Data engineering & quality
+
+
+EU Waste Data Reporting Pipeline — CI-tested, config-driven data platform mirroring how the EEA tracks circular-economy progress: Eurostat API ingestion, Reportnet-style QA engine (severity model: completeness, consistency, plausibility), WFD distance-to-target indicators, SQLite star-schema warehouse with lineage.
+Credit Risk Simulation — end-to-end PD/LGD/EAD pipeline with expected-loss computation, macro stress scenarios and a data-quality framework (BCBS 239-minded).
+
+
+🌍 ESG & climate tooling
+
+
+Climate Stress Test Simulator — NGFS scenarios on financial portfolios (transition & physical risk, stranded assets), aligned with ECB/EBA/TCFD guidance. React 19.
+Scope 3 GHG Dashboard · ESG Due Diligence Dashboard — supply-chain emissions and OECD 6-step due-diligence tooling (CSRD/CSDDD-aware).
+
+
+
+Stack: Python (pandas, FastAPI, PuLP) · SQL · React/Vite · LangChain · Docker · GitHub Actions CI
+
+The pattern across everything here: take a regulation or standard, turn it into an explicit computational specification, wrap it in QA, and ship it as a product someone can actually use.
+
+📫 thiago.lefebure@gmail.com · LinkedIn
